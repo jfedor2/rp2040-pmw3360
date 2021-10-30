@@ -8,8 +8,9 @@ The sensor chip should be soldered on the bottom side (the opposite side from al
 
 If you're looking for a convenient way of mounting mouse button switches in a case, perhaps [this repository](https://github.com/jfedor2/mouse-switch-mount-pcb) will be of use.
 
-Example of a device made using this board:
+Examples of devices made using this board:
 
 * [Trackball 7](https://www.prusaprinters.org/prints/83631-trackball-7)
+* [Trackball 8](https://www.prusaprinters.org/prints/84148-trackball-8)
 
 ![PCB render](Trackball-render.png)
