@@ -14,5 +14,6 @@ Examples of devices made using this board:
 * [Trackball 8](https://www.prusaprinters.org/prints/84148-trackball-8)
 * [Spherical trackball](https://www.prusaprinters.org/prints/85053-spherical-trackball)
 * [Two-ball trackball](https://github.com/jfedor2/two-ball-trackball)
+* [Mouse 1](https://www.prusaprinters.org/prints/87379-mouse-1)
 
 ![PCB render](Trackball-render.png)
