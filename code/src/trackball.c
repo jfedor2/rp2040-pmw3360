@@ -125,6 +125,10 @@ void hid_task(void) {
     int16_t dx;
     int16_t dy;
 
+    if (!tud_hid_ready()) {
+        return;
+    }
+
     pmw3360_get_deltas(&dx, &dy);
 
     report.dx = dx;
@@ -132,9 +136,7 @@ void hid_task(void) {
 
     report.buttons = !gpio_get(PIN_LMB) ? 0x01 : 0x00 | !gpio_get(PIN_RMB) ? 0x02 : 0x00;
 
-    if (tud_hid_ready()) {
-        tud_hid_report(0, &report, sizeof(report));
-    }
+    tud_hid_report(0, &report, sizeof(report));
 }
 
 void pin_init(uint pin) {
