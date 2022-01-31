@@ -18,5 +18,6 @@ Examples of devices made using this board:
 * [Mouse 2](https://www.prusaprinters.org/prints/88403-mouse-2)
 * [Trackball with twist-to-scroll](https://github.com/jfedor2/twist-to-scroll-trackball)
 * [Trackball with scroll ring](https://github.com/jfedor2/scroll-ring-trackball)
+* [Mouse 4](https://www.prusaprinters.org/prints/127451-mouse-4)
 
 ![PCB render](Trackball-render.png)
